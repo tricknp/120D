@@ -1,5 +1,5 @@
 function changePage(){
-	window.location.replace("index.html");
+	window.location.replace("home.html");
 }
 
 var btn = document.getElementById('btn');
