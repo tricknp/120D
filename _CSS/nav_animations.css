@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.6em 0.6em -0.3em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.raise {
+  --color:#A9D0F5;
+  --hover: #CEECF5;
+}
+
+button, a{
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: rgba(0,0,0,.2);
+  border: 3px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.1em;
+  padding: 1.2em 1.8em;
+}
