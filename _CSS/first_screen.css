@@ -1,79 +1,101 @@
-  html {
-  height:100%;
-}
+		@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
-body {
-  margin:0;
-}
+		body,	
+		html{
+			background: rgb(44,83,158); /* Old browsers */
+			background: -moz-linear-gradient(top, rgba(44,83,158,1) 0%, rgba(44,83,158,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+			height: 100%;
+		}
 
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
+		a{
+			text-decoration: none;
+		}
 
-.bg3 {
-  animation-duration:5s;
-}
+		ul li{
+			list-style: none;
+			display: inline;
+			margin: .2%;
+		}
+		.indexHeader{
+			background-color: #fff;
+			margin: -6px -1% -1% -1%;
+			padding: 7px 20px;
+		}
 
-.content {
-  background-color:rgba(255,255,255,.6);
-  border-radius:.25em;
-  box-shadow:0 0 .25em rgba(0,0,0,.25);
-  box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
-  text-align:center;
-  top:50%;
-  transform:translate(-50%, -50%);
-}
+		.sec{
+			text-align: center;
+		}
 
-h1, h2 {
-  font-family:monospace;
-}
+		.list-1{
+			padding-top: 6%;
 
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
+		}
 
-body{
-  background-color: black;
-}
+		.list-2{
+			margin-top: -1%;
+		}
 
-.btn {
-  display: inline-block;
-  padding: 0.75em 6em;
-  background: transparent;
-  border: 0.225em solid;
-  border-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-  border-image-slice: 1;
-  font-weight: 900;
-  font-family: 'Open Sans', sans-serif;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
+		.img1:hover{
+			width: 255px;
+			height: 255px;
+		}
 
-.btn:hover {
-  background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-  color: #fff;
-}  
+
+		.img2:hover{
+			width: 255px;
+			height: 255px;
+		}
+
+
+		.img3:hover{
+			width: 255px;
+			height: 255px;
+		}
+
+
+		.img4:hover{
+			width: 255px;
+			height: 255px;
+		}
+
+		.sign{
+			float: right;
+			margin-top: -1.1%;
+		}
+
+		.btn {
+
+			float: right;
+		  	display: inline-block;
+			padding: 0.8em 2.2em;
+			margin-right: 2%;
+			background: transparent;
+			border: 0.225em solid;
+			border-image: rgb(44,83,158); /* Old browsers */
+			border-image: -moz-linear-gradient(top, rgba(44,83,158,1) 0%, rgba(44,83,158,1) 100%); /* FF3.6-15 */
+			border-image: -webkit-linear-gradient(top, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			border-image: linear-gradient(to bottom, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+			border-image-slice: 1;
+			font-weight: 900;
+			font-family: 'Open Sans', sans-serif;
+			color: #333355;
+			text-transform: uppercase;
+			font-size: 1.3em;
+			letter-spacing: 1px;
+			cursor: pointer;
+			}
+
+			.btn:hover {
+			  
+			background: rgb(44,83,158); /* Old browsers */
+			background: -moz-linear-gradient(top, rgba(44,83,158,1) 0%, rgba(44,83,158,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			color: #fff;
+			} 
+
