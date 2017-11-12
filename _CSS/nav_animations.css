@@ -23,6 +23,7 @@ button:hover, button:focus {
 }
 
 button {
+  cursor: pointer;
   background: rgba(0,0,0,.2);
   border: 3px solid;
   font: inherit;

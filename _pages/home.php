@@ -20,10 +20,10 @@
     
     <nav class="menu">
     	<div>
-       		<button class="raise" id="btnHome"><a href="home.html">Inicio</a></button>
-  	  		<button class="raise" id="btnNew"><a href="new.html">Nova meta</a></button>
-  	   		<button class="raise" id="btnMy"><a href="my.html">Minhas metas</a></button>
-  	   		<button class="raise" id="btnStatus"><a href="status.html">Status</a></button>
+       		<a href="home.php"><button class="raise" id="btnHome">Inicio</button></a>
+  	  		<a href="new.php"><button class="raise" id="btnNew">Nova meta</button></a>
+  	   		<a href="my.php"><button class="raise" id="btnMy">Minhas metas</button></a>
+  	   		<a href="status.php"><button class="raise" id="btnStatus">Status</button></a>
   	 	</div>
   	 </nav>  
   </header>

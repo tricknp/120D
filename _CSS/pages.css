@@ -47,9 +47,10 @@ a{
 .divMetas{
   background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
   padding: 1% 1%;
-  margin-top: 6%;
+  margin-top: 1.5%;
   width: 20%; 
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
   text-align: center;
 }
 
@@ -58,34 +59,35 @@ a{
   border-radius: 1px;
   background-color: rgba(0,0,0,.225);
   color: #A9D0F5;
-  line-height: 2;
+  line-height: 3.2;
   font-size: 1.4em;
 }
 
 .btnHome:hover{
   background-color: rgba(0,0,0,.1);
+  border-color: #CEECF5;
   color: #CEECF5;
-  transition-duration: .3s;
+  transition-duration: .4s;
 }
 
 .a{
-  padding: 15px 50px;
+  padding: 1em 50px;
 }
 
 .b {
-  padding: 15px 25px;
+  padding: 1em 25px;
 }
 
 .c{
-  padding: 15px 44px;
+  padding: 1em 44px;
 }
 
 .d{
-  padding: 15px 46px;
+  padding: 1em 46px;
 }
 
 .e{
-  padding: 15px 10px;
+  padding: 1em 10px;
 }
 /*----------------------*
  *   Page: Nova Meta;   *
